@@ -1,5 +1,6 @@
 # Bash Checkbox
 #### Small bash script to select options from an argument list.
+![](exemple.gif)
 
 
 ### Install :
