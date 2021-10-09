@@ -50,6 +50,8 @@ while true;do
     display "$@"
     keyboard $((max-1))
 done
+current=-1
+display "$@"
 
 export selected
 export max

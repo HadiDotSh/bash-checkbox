@@ -10,7 +10,7 @@ for (( i=0 ; i < max ; i++ ));do
 done
 
 if [[ ${selected[$((max-1))]} == true ]];then
-    printf "\n\e[0m\e[1;77mYou selected the last option.\e[0m\n"
+    printf "\n\e[0m\e[1;77mYou have selected the last option.\e[0m\n"
 else
-    printf "\n\e[0m\e[1;77mYou didn't selected the last option.\e[0m\n"
+    printf "\n\e[0m\e[1;77mYou did not select the last option.\e[0m\n"
 fi
